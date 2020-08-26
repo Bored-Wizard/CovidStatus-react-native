@@ -1,0 +1,30 @@
+{
+  "name": "CovidStatus",
+  "displayName": "CovidStatus",
+  "expo": {
+    "name": "CovidStatus",
+    "slug": "CovidStatus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.Su_arm64.CovidStatus",
+      "versionCode": 1 
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+
